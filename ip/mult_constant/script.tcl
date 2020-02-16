@@ -2,7 +2,7 @@ open_project mult_constant
 set_top mult_constant
 add_files mult_constant/mult_constant.cpp
 open_solution "solution1"
-set_part {xc7z020clg484-1} -tool vivado
+set_part {xczu9eg-ffvb1156-2-e} -tool vivado
 create_clock -period 10 -name default
 #source "./mult_constant/solution1/directives.tcl"
 #csim_design
